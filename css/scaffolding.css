@@ -1,0 +1,30 @@
+
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: 50px; 
+
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Jacques Francois';
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  .link:hover {
+    text-decoration: line-through;
+  }
+
+  .link:active {
+    text-decoration: line-through;
+  }
+
+  header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
