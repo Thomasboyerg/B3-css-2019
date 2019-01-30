@@ -1,8 +1,16 @@
 
+
+  header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
   li {
-    list-style: none;
+    
     display: inline-block;
-    margin: 50px; 
+    margin-right: 50px; 
 
   }
 
@@ -20,11 +28,4 @@
 
   .link:active {
     text-decoration: line-through;
-  }
-
-  header {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }

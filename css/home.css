@@ -20,6 +20,7 @@
 
   .sec4 {
     background: url("../img/img4.jpg") top center no-repeat;
+    margin-bottom: 20px;
   }
   
   .sec h1 {
@@ -44,3 +45,18 @@
     text-decoration: none;
 
   }
+
+  .container {
+    columns: 3;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container > p {
+    color: black;
+    font-family: 'Jacques Francois';
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 20px;
+}
