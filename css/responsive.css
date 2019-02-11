@@ -15,3 +15,33 @@ h1 {
     margin: 5%;
 }
 
+.container {
+    columns: 3;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.container > p {
+    color: black;
+    font-family: 'Jacques Francois';
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+hr {
+    width: 90%;
+    border-top: 1px dashed black;
+}
+
+@media (max-width: 960px) { 
+    .container {
+        columns: 1;
+    }
+
+    h1 {
+        font-size: 2.5em; 
+    }
+}
