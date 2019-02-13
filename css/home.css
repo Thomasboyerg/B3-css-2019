@@ -27,6 +27,8 @@
     color : #ffff;
     font-size: 3em;
     font-family: 'Jacques Francois';
+    position: relative;
+    left: -100%;
   }
 
   a .sec {
@@ -39,6 +41,24 @@
   a:hover .sec {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+  }
+
+  a:hover .sec h1 {
+    animation: pulse 0.5s ease-in;
+    left: 0;
+    opacity: 1;
+
+  }
+
+  @keyframes pulse {
+    0% {
+      left: -100%;
+      opacity: 0;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
   }
 
   a {
